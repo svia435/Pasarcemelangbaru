@@ -135,7 +135,7 @@ const provider = new GoogleAuthProvider();
 const auth = getAuth();
 
 $(document).ready(function() {
-  $("#link-login-panjual"),click(function() {
+  $("#link-login-panjual").click(function() {
     
     signInWithPopup(auth, provider)
     .then((result) => {
